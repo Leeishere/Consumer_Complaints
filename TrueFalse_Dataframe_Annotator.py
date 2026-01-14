@@ -1,7 +1,5 @@
 
 
-
-
 import zipfile
 import os
 import pathlib
@@ -30,8 +28,8 @@ if 'curr_function' not in st.session_state:
     st.session_state.curr_function = None
 if 'current_checkbox_column' not in st.session_state:
     st.session_state.current_checkbox_column = None
-"""if 'load_saved' not in st.session_state:
-    st.session_state.load_saved = False"""
+if 'load_saved' not in st.session_state:
+    st.session_state.load_saved = False
 if 'feature_thresholds' not in st.session_state:
     st.session_state.feature_thresholds = {}
 if 'curr_feature' not in st.session_state:
@@ -128,7 +126,8 @@ with st.expander('file loader'):
     #with select_annotation_function:
     selected_function = st.selectbox("Select an Annotation Function", st.session_state.functions_available, key='select_a_function_for_data_loading' , label_visibility="visible", width="stretch")
     #with load_default_or_previous_save:
-    #st.session_state.load_saved = st.toggle("Load saved version, or reset to default", value=False, key='load_saved_or_default_toggle', label_visibility="visible")
+    #where left if False and right is True
+    st.session_state.load_saved = st.toggle("Load saved version, or reset to T/F threshold.", value=False, key='load_saved_or_default_toggle', label_visibility="visible")
     #with submit_selected_annotation_function:
     submit_function = st.button('Submit', key='retrieve_interactive_dataframe', type="secondary")
     if submit_function:
@@ -154,6 +153,7 @@ def true_false_checkbox_column(dataframe,threshold:float=0.85,upper_is_true:bool
         return dataframe, true_false_col
     elif reset==True and (true_false_col in original_columns):
         dataframe = dataframe.drop(columns=[true_false_col])
+        original_columns = list(dataframe.columns) 
     if upper_is_true==True:
         dataframe[true_false_col]=True   
         dataframe.loc[dataframe[similarity_col]<=threshold,true_false_col]=False
@@ -170,12 +170,13 @@ if st.session_state.selected_dataframe is not None and st.session_state.curr_fun
 
     #interactive_true_false_column_editable_df_display=interactive_true_false_column_editable_df_display[0]
     #with interactive_true_false_column_editable_df_display:
-    """if st.session_state.load_saved == True:
-        st.session_state.selected_dataframe, true_false_col = true_false_checkbox_column(st.session_state.selected_dataframe, reset=True)
-    else:"""
-    curr_threshold = st.session_state.feature_thresholds.get(st.session_state.curr_feature,None)
-    if curr_threshold is not None:
-        st.session_state.selected_dataframe, true_false_col = true_false_checkbox_column(st.session_state.selected_dataframe,threshold= curr_threshold , reset=False)  
+    # where toggle left==False, right==True: toggle -> "Load saved version, or reset to T/F threshold." -> st.session_state.load_saved
+    if st.session_state.load_saved == True:
+        curr_threshold = st.session_state.feature_thresholds.get(st.session_state.curr_feature,None)
+        if curr_threshold is not None:
+            st.session_state.selected_dataframe, true_false_col = true_false_checkbox_column(st.session_state.selected_dataframe,threshold= curr_threshold , reset=True)
+        else:
+            st.session_state.selected_dataframe, true_false_col = true_false_checkbox_column(st.session_state.selected_dataframe,threshold= curr_threshold , reset=True)  
     else:
         st.session_state.selected_dataframe, true_false_col = true_false_checkbox_column(st.session_state.selected_dataframe, reset=False) 
 
@@ -207,6 +208,6 @@ if st.session_state.curr_feature is not None:
         input_float=float(input_float)
         with submit_threshold:
             submit_threshold = st.button('Submit Threshold')
-            st.markdown('overwrite, then reload')
+            st.markdown('then reload')
             if submit_threshold:
                 st.session_state.feature_thresholds[st.session_state.curr_feature]=input_float
