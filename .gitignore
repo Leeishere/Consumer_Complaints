@@ -2,6 +2,12 @@
 complaints.csv.zip
 Consumer_Complaints_usb.csv
 
+/similarity_dfs/Company_similarity_compare_df.csv
+/similarity_dfs/Product_similarity_compare_df.csv
+/similarity_dfs/Sub-Product_similarity_compare_df.csv
+/similarity_dfs/Submitted Via_similarity_compare_df.csv
+/similarity_dfs/Tags_similarity_annotation_df.csv
+
 
 # Power BI
 Consumer_Complaints.pbix
