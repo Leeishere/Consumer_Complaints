@@ -1,4 +1,0 @@
-column_a,column_b,similarity_score,is_similar
-Older American,"Older American, Servicemember",0.883682,True
-Servicemember,"Older American, Servicemember",0.788231,True
-Servicemember,Older American,0.604816,True
