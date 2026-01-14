@@ -207,6 +207,6 @@ if st.session_state.curr_feature is not None:
         input_float=float(input_float)
         with submit_threshold:
             submit_threshold = st.button('Submit Threshold')
-            st.markdown('then reload')
+            st.markdown('overwrite, then reload')
             if submit_threshold:
                 st.session_state.feature_thresholds[st.session_state.curr_feature]=input_float
