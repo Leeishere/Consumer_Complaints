@@ -1,0 +1,671 @@
+is_similar,column_a,column_b,similarity_score
+True,CD (Certificate of Deposit),(CD) Certificate of deposit,0.987074
+True,Other banking product or service,Other bank product/service,0.97296
+True,Traveler's check or cashier's check,Traveler's/Cashier's checks,0.969818
+True,Home equity loan or line of credit (HELOC),Home equity loan or line of credit,0.967397
+True,"Money order, traveler's check or cashier's check",Traveler's check or cashier's check,0.962161
+True,Government benefit card,Government benefit payment card,0.961524
+True,Credit repair services,Credit repair,0.961307
+True,Mobile or digital wallet,Mobile wallet,0.960237
+True,Conventional fixed mortgage,Conventional home mortgage,0.959429
+True,Other type of mortgage,Other mortgage,0.95325
+True,Check cashing service,Check cashing,0.952487
+True,Federal student loan debt,Federal student loan,0.936226
+False,Federal student loan servicing,Federal student loan,0.935786
+True,"Money order, traveler's check or cashier's check",Traveler's/Cashier's checks,0.933625
+True,Private student loan,Private student loan debt,0.932423
+True,Payday loan,Payday loan debt,0.929897
+True,Gift card,Gift or merchant card,0.914653
+False,Cashing a check without an account,Check cashing,0.901062
+False,Store credit card,Credit card,0.900277
+False,Federal student loan servicing,Federal student loan debt,0.896868
+False,Other mortgage,Mortgage,0.896271
+False,Other mortgage,Second mortgage,0.892317
+False,Mortgage debt,Mortgage,0.890704
+False,General-purpose prepaid card,General purpose card,0.887312
+False,Loan,Title loan,0.886888
+False,Lease,Vehicle lease,0.886725
+False,Private student loan debt,Federal student loan debt,0.885982
+False,Domestic (US) money transfer,International money transfer,0.884956
+False,General-purpose credit card or charge card,General-purpose prepaid card,0.882772
+False,Non-federal student loan,Federal student loan,0.882522
+False,Loan,Installment loan,0.88189
+False,Refund anticipation check,Tax refund anticipation loan or check,0.881085
+False,General-purpose credit card or charge card,Credit card,0.880917
+False,Loan,Mortgage,0.877422
+False,Mortgage,Second mortgage,0.876414
+False,Check cashing service,Cashing a check without an account,0.875751
+False,Conventional home mortgage,Mortgage,0.867723
+False,General-purpose prepaid card,ID prepaid card,0.866629
+False,Conventional fixed mortgage,Conventional adjustable mortgage (ARM),0.866437
+False,Private student loan debt,Student loan debt relief,0.865315
+False,General-purpose prepaid card,Student prepaid card,0.86405
+False,Other type of mortgage,Mortgage,0.863715
+False,Loan,Vehicle loan,0.860354
+False,General-purpose credit card or charge card,General purpose card,0.860179
+False,General purpose card,Other special purpose card,0.860073
+False,Conventional home mortgage,Conventional adjustable mortgage (ARM),0.859525
+False,Loan,Payday loan,0.859514
+False,Vehicle loan,Vehicle lease,0.858985
+False,Credit card debt,Credit card,0.856045
+False,ID prepaid card,Student prepaid card,0.855648
+False,Other type of mortgage,Second mortgage,0.854922
+False,Reverse mortgage,Mortgage,0.854787
+False,Federal student loan debt,Student loan debt relief,0.851957
+False,Checking account,Savings account,0.850765
+False,Other debt,Other mortgage,0.84871
+False,Checking account,Check cashing,0.848344
+False,Auto debt,Vehicle loan,0.8483
+False,Installment loan,Title loan,0.848056
+False,Checking account,Check cashing service,0.84691
+False,Rental debt,Mortgage debt,0.846756
+False,Private student loan,Non-federal student loan,0.844691
+False,Reverse mortgage,Second mortgage,0.843984
+False,FHA mortgage,Mortgage,0.843609
+False,Private student loan,Federal student loan,0.843414
+False,Conventional fixed mortgage,Mortgage,0.842868
+False,Credit card,Gift or merchant card,0.840749
+False,USDA mortgage,Mortgage,0.838031
+False,Check cashing service,"Money order, traveler's check or cashier's check",0.837454
+False,Conventional home mortgage,Other type of mortgage,0.836977
+False,VA mortgage,Mortgage,0.836195
+False,Check cashing service,Traveler's/Cashier's checks,0.835996
+False,Other debt,Credit card debt,0.834355
+False,Check cashing service,Traveler's check or cashier's check,0.834232
+False,Title loan,Vehicle loan,0.834173
+False,"Money order, traveler's check or cashier's check",Check cashing,0.833692
+False,Traveler's check or cashier's check,Check cashing,0.833145
+False,Checking account,Cashing a check without an account,0.83191
+False,Conventional home mortgage,Reverse mortgage,0.831888
+False,Federal student loan servicing,Non-federal student loan,0.831632
+False,Non-federal student loan,Federal student loan debt,0.831518
+False,FHA mortgage,USDA mortgage,0.830846
+False,Gift card,Credit card,0.830028
+False,Traveler's/Cashier's checks,Check cashing,0.829218
+False,Loan,Private student loan,0.827928
+False,"Money order, traveler's check or cashier's check",Money order,0.826608
+False,Conventional home mortgage,Other mortgage,0.82527
+False,Other mortgage,Reverse mortgage,0.824568
+False,Credit card,Student prepaid card,0.824491
+False,Personal line of credit,Home equity loan or line of credit,0.824401
+False,Mortgage debt,Other mortgage,0.823009
+False,Conventional fixed mortgage,Other type of mortgage,0.82142
+False,Loan,Pawn loan,0.821414
+False,Mortgage debt,Reverse mortgage,0.821112
+False,General-purpose prepaid card,Credit card,0.821072
+False,Mortgage debt,Payday loan debt,0.819605
+False,Credit card debt,Payday loan debt,0.819289
+False,Installment loan,Vehicle loan,0.818169
+False,Loan,Payday loan debt,0.817173
+False,Title loan,Mortgage,0.816235
+False,Conventional fixed mortgage,Reverse mortgage,0.816206
+False,Installment loan,Mortgage,0.815008
+False,General-purpose credit card or charge card,Store credit card,0.814983
+False,Installment loan,Payday loan,0.814256
+False,Other debt,Mortgage debt,0.813638
+False,Personal line of credit,Credit card,0.812705
+False,Loan,Other mortgage,0.812346
+False,Credit reporting,Personal line of credit,0.81191
+False,Private student loan,Student loan debt relief,0.811184
+False,Credit card debt,Medical debt,0.810901
+False,Credit card debt,Mortgage debt,0.810691
+False,Mortgage debt,Second mortgage,0.809715
+False,VA mortgage,FHA mortgage,0.809623
+False,Checking account,"Money order, traveler's check or cashier's check",0.808894
+False,Checking account,Traveler's check or cashier's check,0.807827
+False,Other type of mortgage,Reverse mortgage,0.807272
+False,Conventional home mortgage,Second mortgage,0.806753
+False,Loan,Mortgage debt,0.8065
+False,Other debt,Medical debt,0.806408
+False,Private student loan debt,Federal student loan,0.806334
+False,Credit card,ID prepaid card,0.805045
+False,Other debt,Rental debt,0.804595
+False,Federal student loan servicing,Student loan debt relief,0.804381
+False,Loan,Home equity loan or line of credit,0.804311
+False,Rental debt,Payday loan debt,0.804306
+False,Conventional fixed mortgage,Other mortgage,0.804103
+False,Auto debt,Auto,0.802697
+False,Debt settlement,Student loan debt relief,0.802314
+False,Private student loan debt,Non-federal student loan,0.802258
+False,Store credit card,Gift or merchant card,0.801587
+False,Other mortgage,Other bank product/service,0.799965
+False,Federal student loan,Student loan debt relief,0.799869
+False,Other debt,Debt settlement,0.799243
+False,Loan,Second mortgage,0.79922
+False,Conventional fixed mortgage,Second mortgage,0.799101
+False,Private student loan,Federal student loan debt,0.799093
+False,Other debt,Auto debt,0.798905
+False,Loan,Federal student loan,0.798747
+False,Mortgage debt,Conventional home mortgage,0.798416
+False,Credit card,General purpose card,0.797229
+False,Medical debt,Medical,0.797214
+False,Mortgage debt,Debt settlement,0.797053
+False,General purpose card,Gift or merchant card,0.79681
+False,Mortgage debt,Private student loan debt,0.796516
+False,Private student loan,Federal student loan servicing,0.796492
+False,Other type of mortgage,Home equity loan or line of credit,0.796108
+False,Credit card debt,Auto debt,0.795376
+False,Mortgage debt,Other type of mortgage,0.795112
+False,Credit card debt,Rental debt,0.793939
+False,International money transfer,Foreign currency exchange,0.793417
+False,Other debt,Payday loan debt,0.791379
+False,General-purpose credit card or charge card,Gift or merchant card,0.791011
+False,Store credit card,Gift card,0.790322
+False,General-purpose prepaid card,Other special purpose card,0.790308
+False,VA mortgage,Other mortgage,0.790083
+False,FHA mortgage,Other mortgage,0.789898
+False,Checking account,Traveler's/Cashier's checks,0.789644
+False,Mortgage modification or foreclosure avoidance,Other type of mortgage,0.789526
+False,Home equity loan or line of credit (HELOC),Personal line of credit,0.789121
+False,Mortgage modification or foreclosure avoidance,Mortgage,0.788764
+False,Gift or merchant card,Other special purpose card,0.788415
+False,Loan,Non-federal student loan,0.788181
+False,Private student loan debt,Payday loan debt,0.788153
+False,Conventional adjustable mortgage (ARM),Mortgage,0.787902
+False,Government benefit card,General purpose card,0.787815
+False,Home equity loan or line of credit,Mortgage,0.786964
+False,Installment loan,Payday loan debt,0.786724
+False,Other banking product or service,Other mortgage,0.786551
+False,Other type of mortgage,Conventional adjustable mortgage (ARM),0.786359
+False,Mobile or digital wallet,Credit card,0.785994
+False,Other mortgage,USDA mortgage,0.78592
+False,VA mortgage,Second mortgage,0.785694
+False,Traveler's check or cashier's check,Cashing a check without an account,0.785655
+False,Credit card,Government benefit payment card,0.785328
+False,Other mortgage,Home equity loan or line of credit,0.783883
+False,Title loan,Home equity loan or line of credit,0.783635
+False,Credit card debt,Debt settlement,0.783341
+False,Mortgage debt,Auto debt,0.783315
+False,Mortgage debt,Installment loan,0.783177
+False,FHA mortgage,Conventional home mortgage,0.782693
+False,Gift card,Student prepaid card,0.782581
+False,General-purpose prepaid card,Government benefit payment card,0.7822
+False,Rental debt,Auto debt,0.78197
+False,Installment loan,Other mortgage,0.781623
+False,Home equity loan or line of credit (HELOC),Other type of mortgage,0.781622
+False,Other debt,Other type of mortgage,0.781402
+False,FHA mortgage,Second mortgage,0.781305
+False,Mortgage debt,Medical debt,0.781137
+False,General-purpose prepaid card,Store credit card,0.781074
+False,Title loan,Pawn loan,0.780851
+False,Installment loan,Home equity loan or line of credit,0.780755
+False,General-purpose credit card or charge card,Credit card debt,0.78061
+False,VA mortgage,Mortgage debt,0.780291
+False,Other debt,Private student loan debt,0.780054
+False,Loan,Home equity loan or line of credit (HELOC),0.780013
+False,Installment loan,Second mortgage,0.779998
+False,Rental debt,Debt settlement,0.779983
+False,Manufactured home loan,Mortgage,0.779737
+False,FHA mortgage,Mortgage debt,0.779547
+False,Federal student loan servicing,Private student loan debt,0.779515
+False,Loan,Reverse mortgage,0.779214
+False,Auto debt,Payday loan debt,0.778937
+False,Mortgage debt,Home equity loan or line of credit,0.778859
+False,Installment loan,Pawn loan,0.778687
+False,Mobile or digital wallet,Gift or merchant card,0.778373
+False,Loan,Other debt,0.777965
+False,Installment loan,Manufactured home loan,0.77791
+False,VA mortgage,Reverse mortgage,0.777712
+False,FHA mortgage,Other type of mortgage,0.77751
+False,Credit reporting,Other personal consumer report,0.777425
+False,Payday loan,Title loan,0.776418
+False,Conventional home mortgage,Home equity loan or line of credit,0.776375
+False,Payroll card,Credit card,0.776055
+False,Gift card,General purpose card,0.775451
+False,Government benefit payment card,General purpose card,0.775005
+False,Rental debt,Lease,0.775004
+False,Payday loan,Vehicle loan,0.774903
+False,Debt settlement,Credit repair,0.774671
+False,"Money order, traveler's check or cashier's check",Cashing a check without an account,0.774671
+False,Auto,Vehicle lease,0.774506
+False,Store credit card,Student prepaid card,0.773939
+False,Loan,Rental debt,0.773379
+False,Non-federal student loan,Student loan debt relief,0.773176
+False,Other debt,Other banking product or service,0.773138
+False,Money order,Check cashing,0.772766
+False,Credit card,Mobile wallet,0.772325
+False,Mortgage modification or foreclosure avoidance,Other mortgage,0.772171
+False,Auto debt,Vehicle lease,0.772039
+False,Government benefit payment card,Electronic Benefit Transfer / EBT card,0.771701
+False,Mortgage debt,Title loan,0.771462
+False,Other mortgage,Conventional adjustable mortgage (ARM),0.770359
+False,Loan,Other type of mortgage,0.770113
+False,Auto debt,Medical debt,0.770104
+False,General-purpose credit card or charge card,Other special purpose card,0.77009
+False,Loan,Manufactured home loan,0.769803
+False,Checking account,Personal line of credit,0.76925
+False,Cashing a check without an account,Traveler's/Cashier's checks,0.769062
+False,Conventional fixed mortgage,Mortgage debt,0.768988
+False,Mortgage modification or foreclosure avoidance,Reverse mortgage,0.768791
+False,Check cashing service,Money order,0.768373
+False,FHA mortgage,Reverse mortgage,0.768239
+False,Traveler's check or cashier's check,Gift or merchant card,0.768144
+False,Mortgage debt,Federal student loan debt,0.768074
+False,Home equity loan or line of credit (HELOC),Mortgage,0.767676
+False,Conventional home mortgage,USDA mortgage,0.767387
+False,Home equity loan or line of credit (HELOC),Other mortgage,0.767106
+False,Rental debt,Private student loan debt,0.766928
+False,Home equity loan or line of credit (HELOC),Installment loan,0.766845
+False,Installment loan,Reverse mortgage,0.76676
+False,Rental debt,Title loan,0.766725
+False,USDA mortgage,Second mortgage,0.766624
+False,Credit card debt,Personal line of credit,0.766441
+False,VA mortgage,Conventional home mortgage,0.765713
+False,Payday loan debt,Federal student loan debt,0.765621
+False,VA mortgage,Other type of mortgage,0.765514
+False,Other type of mortgage,Other bank product/service,0.764995
+False,General-purpose prepaid card,Transit card,0.764974
+False,General-purpose credit card or charge card,Government benefit payment card,0.764506
+False,Payday loan debt,Debt settlement,0.764411
+False,Payday loan,Mortgage,0.764301
+False,General-purpose prepaid card,Gift or merchant card,0.76405
+False,Transit card,Student prepaid card,0.763996
+False,VA mortgage,USDA mortgage,0.763771
+False,Home equity loan or line of credit (HELOC),Title loan,0.763678
+False,Other mortgage,Title loan,0.763294
+False,Payday loan,Pawn loan,0.763186
+False,Other debt,Other bank product/service,0.763067
+False,Credit card debt,Private student loan debt,0.762817
+False,Government benefit card,Electronic Benefit Transfer / EBT card,0.762732
+False,Title loan,Reverse mortgage,0.76248
+False,Mortgage modification or foreclosure avoidance,Mortgage debt,0.762335
+False,Rental debt,Installment loan,0.762258
+False,Checking account,Money order,0.76188
+False,General-purpose prepaid card,Gift card,0.76142
+False,Reverse mortgage,Conventional adjustable mortgage (ARM),0.761371
+False,Medical debt,Debt settlement,0.760755
+False,Conventional adjustable mortgage (ARM),Second mortgage,0.760326
+False,Payday loan debt,Title loan,0.760182
+False,Payday loan debt,Student loan debt relief,0.760151
+False,Conventional home mortgage,Manufactured home loan,0.759988
+False,Credit card,Money order,0.759947
+False,Other type of mortgage,USDA mortgage,0.759933
+False,Credit card,Other special purpose card,0.759924
+False,Loan,Conventional home mortgage,0.759855
+False,Virtual currency,Foreign currency exchange,0.759627
+False,Home equity loan or line of credit,Reverse mortgage,0.759548
+False,Credit reporting,Credit repair,0.759196
+False,Private student loan,Title loan,0.759092
+False,Other banking product or service,Other type of mortgage,0.759013
+False,Transit card,Credit card,0.758776
+False,General-purpose credit card or charge card,Personal line of credit,0.758548
+False,Checking account,Mobile or digital wallet,0.75853
+False,General purpose card,ID prepaid card,0.75853
+False,Title loan,Second mortgage,0.758378
+False,Loan,VA mortgage,0.758185
+False,General-purpose credit card or charge card,Student prepaid card,0.757779
+False,Loan,Auto debt,0.757767
+False,Loan,Private student loan debt,0.757694
+False,Rental debt,Mortgage,0.757374
+False,Auto debt,Debt settlement,0.756795
+False,Gift card,ID prepaid card,0.756623
+False,Private student loan,Installment loan,0.756585
+False,Checking account,Credit card,0.756533
+False,FHA mortgage,Conventional fixed mortgage,0.756476
+False,Checking account,Mobile wallet,0.756455
+False,Transit card,General purpose card,0.756231
+False,Manufactured home loan,Second mortgage,0.756019
+False,Payroll card,Government benefit payment card,0.756009
+False,Government benefit card,Other special purpose card,0.755911
+False,Store credit card,ID prepaid card,0.755774
+False,Home equity loan or line of credit (HELOC),Mortgage debt,0.755752
+False,Other debt,Telecommunications debt,0.755676
+False,Manufactured home loan,Reverse mortgage,0.755575
+False,Mortgage debt,USDA mortgage,0.755556
+False,Gift or merchant card,Student prepaid card,0.755484
+False,General purpose card,Student prepaid card,0.755301
+False,Home equity loan or line of credit (HELOC),Conventional home mortgage,0.755259
+False,VA mortgage,Title loan,0.754897
+False,Credit reporting,Credit repair services,0.754823
+False,Loan,Federal student loan servicing,0.754772
+False,Loan,Credit card,0.754512
+False,Vehicle loan,Auto,0.754379
+False,Mobile or digital wallet,Store credit card,0.753959
+False,VA mortgage,Conventional fixed mortgage,0.753767
+False,VA mortgage,Manufactured home loan,0.753503
+False,Gift or merchant card,ID prepaid card,0.753456
+False,Transit card,ID prepaid card,0.753268
+False,Loan,Student loan debt relief,0.753078
+False,Loan,USDA mortgage,0.752746
+False,Auto debt,Title loan,0.752666
+False,Loan,Personal line of credit,0.752661
+False,Conventional fixed mortgage,Manufactured home loan,0.75231
+False,Rental debt,Medical debt,0.752093
+False,VA mortgage,Home equity loan or line of credit,0.75192
+False,Credit reporting,Credit card,0.75176
+False,FHA mortgage,Manufactured home loan,0.751378
+False,Government benefit payment card,Gift or merchant card,0.751247
+False,Installment loan,Auto debt,0.750863
+False,Personal line of credit,Credit repair services,0.750854
+False,Checking account,Other bank product/service,0.750248
+False,Vehicle loan,Pawn loan,0.750181
+False,"Money order, traveler's check or cashier's check",Gift or merchant card,0.749969
+False,Private student loan debt,Medical debt,0.749696
+False,Government benefit payment card,Student prepaid card,0.749614
+False,Foreign currency exchange,Money order,0.749556
+False,Reverse mortgage,USDA mortgage,0.749399
+False,International money transfer,Money order,0.749298
+False,Installment loan,Other type of mortgage,0.749111
+False,Home equity loan or line of credit,Second mortgage,0.748852
+False,Store credit card,General purpose card,0.748768
+False,Check cashing,Tax refund anticipation loan or check,0.748699
+False,Mortgage debt,Student loan debt relief,0.748691
+False,Mortgage debt,Manufactured home loan,0.748114
+False,Credit card debt,Federal student loan debt,0.74751
+False,Gift card,Other special purpose card,0.747248
+False,Mortgage modification or foreclosure avoidance,Conventional adjustable mortgage (ARM),0.747096
+False,Conventional fixed mortgage,USDA mortgage,0.74659
+False,VA mortgage,Installment loan,0.746081
+False,Government benefit payment card,Other special purpose card,0.745784
+False,Credit repair services,Other bank product/service,0.745525
+False,Other type of mortgage,Manufactured home loan,0.745497
+False,Loan,Lease,0.745265
+False,Loan,Conventional fixed mortgage,0.745191
+False,Government benefit payment card,ID prepaid card,0.744855
+False,Personal line of credit,Credit repair,0.744093
+False,Payroll card,Gift or merchant card,0.74406
+False,Other debt,Federal student loan debt,0.744024
+False,Credit card debt,Telecommunications debt,0.743932
+False,Loan,Debt settlement,0.743093
+False,General-purpose credit card or charge card,Mobile or digital wallet,0.742974
+False,Checking account,Loan,0.74285
+False,Credit card debt,Credit repair,0.742848
+False,Domestic (US) money transfer,Money order,0.742765
+False,Credit card debt,Store credit card,0.74269
+False,Loan,Savings account,0.742568
+False,Credit card debt,Credit repair services,0.742376
+False,Other mortgage,Manufactured home loan,0.741993
+False,Other debt,Second mortgage,0.741863
+False,Home equity loan or line of credit (HELOC),Reverse mortgage,0.741767
+False,Mortgage modification or foreclosure avoidance,Conventional home mortgage,0.741476
+False,VA mortgage,Home equity loan or line of credit (HELOC),0.741127
+False,Payday loan debt,Medical debt,0.741058
+False,Rental debt,Telecommunications debt,0.740463
+False,Conventional home mortgage,Installment loan,0.740411
+False,Private student loan debt,Auto debt,0.740402
+False,Mortgage,Pawn loan,0.740329
+False,Money order,Gift or merchant card,0.7403
+False,Credit repair services,Credit card,0.740299
+False,Conventional home mortgage,Title loan,0.740212
+False,Checking account,Other banking product or service,0.740198
+False,Checking account,Store credit card,0.740164
+False,Credit card,Credit repair,0.740003
+False,General-purpose prepaid card,Government benefit card,0.739967
+False,Rental debt,Reverse mortgage,0.739858
+False,General-purpose credit card or charge card,ID prepaid card,0.739763
+False,Other special purpose card,Student prepaid card,0.739658
+False,Other banking product or service,"Other (i.e. phone, health club, etc.)",0.739605
+False,Mortgage modification or foreclosure avoidance,Second mortgage,0.73957
+False,Private student loan debt,Debt settlement,0.739511
+False,Credit reporting,Credit card debt,0.739507
+False,Payday loan,Credit card,0.739487
+False,Gift or merchant card,Mobile wallet,0.739313
+False,Vehicle loan,Mortgage,0.739025
+False,FHA mortgage,Conventional adjustable mortgage (ARM),0.738882
+False,Gift card,Government benefit payment card,0.738393
+False,Other debt,Student loan debt relief,0.738392
+False,Checking account,Tax refund anticipation loan or check,0.737982
+False,Other debt,Personal line of credit,0.73738
+False,Payday loan debt,Vehicle loan,0.737071
+False,Private student loan,Home equity loan or line of credit,0.736772
+False,Installment loan,Federal student loan,0.736604
+False,Savings account,Personal line of credit,0.736535
+False,Other debt,Credit card,0.736463
+False,Store credit card,Personal line of credit,0.736412
+False,Medical debt,Federal student loan debt,0.736362
+False,Conventional fixed mortgage,Home equity loan or line of credit,0.736235
+False,Loan,Medical debt,0.736143
+False,Savings account,Credit card,0.736083
+False,Other debt,Installment loan,0.73598
+False,Credit reporting,Other debt,0.735962
+False,Store credit card,Payroll card,0.735654
+False,Payday loan,Money order,0.735396
+False,VA mortgage,Conventional adjustable mortgage (ARM),0.734625
+False,Home equity loan or line of credit,Conventional adjustable mortgage (ARM),0.734609
+False,Credit reporting,Rental debt,0.734242
+False,Mortgage debt,Conventional adjustable mortgage (ARM),0.734004
+False,Other banking product or service,Credit repair services,0.73396
+False,Private student loan,Mortgage,0.733904
+False,Private student loan,Payday loan,0.733866
+False,Rental debt,Federal student loan debt,0.733788
+False,Loan,Federal student loan debt,0.733157
+False,Installment loan,Personal line of credit,0.73302
+False,Payday loan,Other mortgage,0.732879
+False,Payday loan debt,Mortgage,0.732799
+False,Manufactured home loan,Vehicle loan,0.732733
+False,Credit card,Other bank product/service,0.732628
+False,Loan,Money order,0.73252
+False,Other debt,Non-federal student loan,0.732123
+False,Manufactured home loan,USDA mortgage,0.731955
+False,Loan,Tax refund anticipation loan or check,0.731284
+False,Home equity loan or line of credit (HELOC),Second mortgage,0.730976
+False,Other banking product or service,Credit card,0.730912
+False,Credit card debt,Student loan debt relief,0.73083
+False,Private student loan,Payday loan debt,0.730805
+False,Installment loan,USDA mortgage,0.730772
+False,FHA mortgage,Home equity loan or line of credit,0.730612
+False,Store credit card,Other special purpose card,0.730459
+False,Installment loan,Conventional adjustable mortgage (ARM),0.729903
+False,Check cashing service,Tax refund anticipation loan or check,0.729876
+False,Store credit card,Mobile wallet,0.729733
+False,Credit repair services,Debt settlement,0.729603
+False,Gift or merchant card,Traveler's/Cashier's checks,0.729454
+False,Personal line of credit,Title loan,0.729397
+False,Other type of mortgage,Title loan,0.729153
+False,Mobile or digital wallet,Virtual currency,0.729078
+False,Government benefit card,Gift or merchant card,0.728873
+False,Payroll card,General purpose card,0.728512
+False,Savings account,Store credit card,0.728396
+False,Rental debt,Credit repair,0.728018
+False,ID prepaid card,Other special purpose card,0.72768
+False,Installment loan,Non-federal student loan,0.727538
+False,Other banking product or service,Gift or merchant card,0.727522
+False,Store credit card,Government benefit payment card,0.727444
+False,Savings account,Installment loan,0.727358
+False,General-purpose credit card or charge card,Payroll card,0.72733
+False,Loan,Credit repair,0.727282
+False,Store credit card,Other bank product/service,0.727175
+False,Payday loan debt,Pawn loan,0.727118
+False,Mortgage modification or foreclosure avoidance,FHA mortgage,0.727006
+False,Title loan,Manufactured home loan,0.726944
+False,CD (Certificate of Deposit),Credit card,0.726906
+False,Transit card,Government benefit payment card,0.726637
+False,Credit reporting,Mortgage debt,0.726604
+False,General-purpose credit card or charge card,Other banking product or service,0.726512
+False,USDA mortgage,Federal student loan,0.726353
+False,Other banking product or service,Other special purpose card,0.726086
+False,Loan,Other bank product/service,0.725994
+False,Check cashing service,Payroll card,0.72559
+False,Check cashing service,Other bank product/service,0.725381
+False,Personal line of credit,Other bank product/service,0.725203
+False,Mortgage modification or foreclosure avoidance,Home equity loan or line of credit,0.725122
+False,Gift card,Money order,0.725015
+False,Other mortgage,Personal line of credit,0.724825
+False,Transit card,Gift or merchant card,0.724774
+False,Credit reporting,Home equity loan or line of credit,0.724765
+False,General-purpose prepaid card,Payroll card,0.724531
+False,Conventional fixed mortgage,Installment loan,0.724389
+False,Checking account,Refund anticipation check,0.724332
+False,Payday loan debt,Personal line of credit,0.724291
+False,Other mortgage,Pawn loan,0.724167
+False,Loan,Credit card debt,0.72395
+False,Payday loan debt,Non-federal student loan,0.72392
+False,Mortgage modification or foreclosure avoidance,Conventional fixed mortgage,0.723794
+False,Payroll card,Gift card,0.723773
+False,Money order,Mobile wallet,0.723584
+False,Mobile or digital wallet,Traveler's check or cashier's check,0.723281
+False,Rental debt,Second mortgage,0.72323
+False,Payday loan,Non-federal student loan,0.723111
+False,Federal student loan debt,Debt settlement,0.723073
+False,General-purpose credit card or charge card,Gift card,0.722728
+False,Mobile or digital wallet,Gift card,0.722282
+False,Rental debt,Home equity loan or line of credit,0.722062
+False,FHA mortgage,Installment loan,0.72204
+False,Loan,FHA mortgage,0.721948
+False,Title loan,Federal student loan,0.721795
+False,Rental debt,Payday loan,0.721689
+False,Loan,Other banking product or service,0.721583
+False,Installment loan,Debt settlement,0.721498
+False,Conventional fixed mortgage,Title loan,0.721348
+False,Conventional adjustable mortgage (ARM),USDA mortgage,0.720986
+False,Rental debt,Credit repair services,0.720976
+False,Manufactured home loan,Home equity loan or line of credit,0.720958
+False,Installment loan,Tax refund anticipation loan or check,0.72081
+False,Government benefit card,Gift card,0.720593
+False,Savings account,Mobile wallet,0.720469
+False,Transit card,Other special purpose card,0.720369
+False,Mobile or digital wallet,"Money order, traveler's check or cashier's check",0.720262
+False,Rental debt,Student loan debt relief,0.720235
+False,Mobile or digital wallet,Money order,0.720216
+False,Other debt,Home equity loan or line of credit,0.720102
+False,Government benefit card,Credit card,0.719866
+False,Payroll card,Check cashing,0.719711
+False,Private student loan,Home equity loan or line of credit (HELOC),0.719529
+False,Non-federal student loan,Other mortgage,0.719509
+False,VA mortgage,Rental debt,0.719408
+False,Rental debt,Vehicle loan,0.719251
+False,Mobile or digital wallet,Other banking product or service,0.71917
+False,Telecommunications debt,Medical debt,0.719079
+False,Payday loan,Payroll card,0.719036
+False,Mobile or digital wallet,Other bank product/service,0.718889
+False,Rental debt,Other mortgage,0.718679
+False,Loan,Conventional adjustable mortgage (ARM),0.718641
+False,Private student loan,Mortgage debt,0.718569
+False,Checking account,Payday loan,0.718519
+False,Home equity loan or line of credit,Pawn loan,0.718514
+False,Home equity loan or line of credit (HELOC),Conventional fixed mortgage,0.718428
+False,Debt settlement,Reverse mortgage,0.718325
+False,VA mortgage,Vehicle loan,0.718268
+False,Home equity loan or line of credit,Vehicle loan,0.718144
+False,Check cashing service,Refund anticipation check,0.717659
+False,Checking account,Payroll card,0.717499
+False,Other debt,Credit repair,0.717309
+False,Rental debt,Personal line of credit,0.717229
+False,Payday loan,Second mortgage,0.717173
+False,Other mortgage,Other advances of future income,0.716985
+False,Payday loan,Personal line of credit,0.716826
+False,Savings account,Other bank product/service,0.716766
+False,Transit card,Gift card,0.716708
+False,FHA mortgage,Title loan,0.716689
+False,Personal line of credit,Mortgage,0.716675
+False,Private student loan,Personal line of credit,0.716573
+False,Credit reporting,Checking account,0.716497
+False,Mobile or digital wallet,Savings account,0.716281
+False,Mortgage debt,Telecommunications debt,0.716149
+False,Refund anticipation check,Check cashing,0.71613
+False,Other banking product or service,Personal line of credit,0.716118
+False,Payroll card,Student prepaid card,0.715918
+False,Medical debt,Student loan debt relief,0.715667
+False,Mortgage modification or foreclosure avoidance,USDA mortgage,0.71551
+False,Other debt,Mortgage,0.715412
+False,Cashing a check without an account,Tax refund anticipation loan or check,0.715386
+False,Rental debt,Vehicle lease,0.715351
+False,Credit card,(CD) Certificate of deposit,0.715203
+False,Auto debt,Federal student loan debt,0.715201
+False,Lease,Title loan,0.715148
+False,Mortgage modification or foreclosure avoidance,Manufactured home loan,0.714734
+False,Other banking product or service,Store credit card,0.714732
+False,Payday loan,Manufactured home loan,0.714702
+False,Payroll card,Money order,0.714666
+False,Private student loan,Other mortgage,0.714298
+False,Government benefit card,ID prepaid card,0.714188
+False,Home equity loan or line of credit (HELOC),Conventional adjustable mortgage (ARM),0.714179
+False,Title loan,USDA mortgage,0.713419
+False,Debt settlement,Mortgage,0.713379
+False,FHA mortgage,Home equity loan or line of credit (HELOC),0.713349
+False,Other debt,Credit repair services,0.713262
+False,Non-federal student loan,Title loan,0.712949
+False,Credit reporting,Loan,0.712875
+False,Payday loan debt,Federal student loan,0.712768
+False,Store credit card,Money order,0.712583
+False,Rental debt,Pawn loan,0.712489
+False,Rental debt,Manufactured home loan,0.712444
+False,Other mortgage,Vehicle loan,0.712209
+False,Auto debt,Credit repair,0.712206
+False,Private student loan,Vehicle loan,0.71209
+False,Credit reporting,Payday loan debt,0.712056
+False,Other type of mortgage,Non-federal student loan,0.71194
+False,Gift or merchant card,Electronic Benefit Transfer / EBT card,0.711834
+False,Federal student loan servicing,Installment loan,0.71181
+False,Mortgage debt,Payday loan,0.711762
+False,Payday loan debt,Credit card,0.711415
+False,Traveler's check or cashier's check,Money order,0.711249
+False,Payday loan debt,Home equity loan or line of credit,0.711238
+False,Mobile or digital wallet,ID prepaid card,0.711167
+False,Mortgage debt,Personal line of credit,0.711045
+False,Checking account,Installment loan,0.710991
+False,Loan,Domestic (US) money transfer,0.710966
+False,Other banking product or service,Other personal consumer report,0.710626
+False,Personal line of credit,Gift or merchant card,0.71052
+False,Other banking product or service,Check cashing service,0.710475
+False,Payday loan,Check cashing,0.710357
+False,Other bank product/service,Gift or merchant card,0.71031
+False,General-purpose credit card or charge card,Transit card,0.710273
+False,Other debt,Other advances of future income,0.710139
+False,Manufactured home loan,Conventional adjustable mortgage (ARM),0.710082
+False,Government benefit card,Student prepaid card,0.710051
+False,Home equity loan or line of credit (HELOC),Vehicle loan,0.709992
+False,Second mortgage,Pawn loan,0.709864
+False,Payday loan,Cashing a check without an account,0.709742
+False,Transit card,Electronic Benefit Transfer / EBT card,0.709517
+False,Payday loan debt,Other mortgage,0.709464
+False,Payday loan debt,Credit repair,0.708578
+False,Government benefit card,Transit card,0.708536
+False,Payday loan,Home equity loan or line of credit,0.708513
+False,Private student loan,Second mortgage,0.708428
+False,Mobile or digital wallet,Student prepaid card,0.708349
+False,Government benefit card,Payroll card,0.707822
+False,Private student loan debt,Title loan,0.707551
+False,Auto debt,Credit repair services,0.707489
+False,Payday loan,Federal student loan,0.707392
+False,Gift card,Electronic Benefit Transfer / EBT card,0.707205
+False,Home equity loan or line of credit (HELOC),Manufactured home loan,0.70698
+False,Mobile or digital wallet,General-purpose prepaid card,0.706978
+False,Other personal consumer report,Personal line of credit,0.706846
+False,Savings account,Other banking product or service,0.706613
+False,General-purpose credit card or charge card,Other bank product/service,0.706571
+False,Installment loan,Private student loan debt,0.706538
+False,Title loan,Conventional adjustable mortgage (ARM),0.706396
+False,Student loan debt relief,Credit repair,0.706173
+False,Vehicle loan,Federal student loan,0.706079
+False,Private student loan debt,Home equity loan or line of credit,0.7058
+False,Other bank product/service,Money order,0.705746
+False,Telecommunications debt,Debt settlement,0.705253
+False,Payroll card,ID prepaid card,0.704902
+False,Auto debt,Personal line of credit,0.704638
+False,Gift card,Mobile wallet,0.704331
+False,Private student loan,Other debt,0.704316
+False,Reverse mortgage,Pawn loan,0.704198
+False,Other bank product/service,Second mortgage,0.704178
+False,Private student loan,VA mortgage,0.70397
+False,Mortgage debt,Credit repair,0.703904
+False,Payday loan,Tax refund anticipation loan or check,0.703852
+False,Other bank product/service,Other special purpose card,0.703569
+False,Private student loan debt,Personal line of credit,0.703538
+False,Savings account,Payday loan,0.703182
+False,Other type of mortgage,Personal line of credit,0.703161
+False,Check cashing service,Gift or merchant card,0.703148
+False,Home equity loan or line of credit,Credit repair,0.703055
+False,Checking account,CD (Certificate of Deposit),0.702936
+False,Loan,Credit repair services,0.702864
+False,Loan,Check cashing,0.702863
+False,Payday loan,Reverse mortgage,0.702437
+False,Other advances of future income,Earned wage access,0.702435
+False,"Other (i.e. phone, health club, etc.)",Other bank product/service,0.702338
+False,Payday loan debt,Reverse mortgage,0.702274
+False,VA mortgage,Pawn loan,0.702173
+False,Loan,Mortgage modification or foreclosure avoidance,0.70186
+False,Personal line of credit,Pawn loan,0.701759
+False,Loan,Vehicle lease,0.701613
+False,Other debt,Title loan,0.701612
+False,Traveler's check or cashier's check,Gift card,0.701611
+False,Other debt,Home equity loan or line of credit (HELOC),0.701557
+False,Other debt,Reverse mortgage,0.70146
+False,Mobile or digital wallet,Transit card,0.701242
+False,Non-federal student loan,Home equity loan or line of credit,0.700899
+False,Other mortgage,Debt settlement,0.700895
+False,Mortgage modification or foreclosure avoidance,VA mortgage,0.700511
+False,Title loan,Credit repair,0.700236
+False,Debt settlement,Title loan,0.70022
+False,Other debt,Payday loan,0.7002
+False,CD (Certificate of Deposit),Other bank product/service,0.700025

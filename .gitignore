@@ -1,0 +1,23 @@
+# Data files
+complaints.csv.zip
+Consumer_Complaints_usb.csv
+
+
+# Power BI
+Consumer_Complaints.pbix
+
+# Tableau
+Consumer_Complaints.twb
+Consumer_Complaints.twbx
+USB_Complaints_TableauSized.xlsx
+Consumer_Complaints.twb Files
+# Tableau temp / backup files
+~Consumer_Complaints__*.twbr
+
+# Python cache
+__pycache__/
+
+# Utilities folder (if you truly want to ignore it)
+utils/
+
+a_numpy_or_jaxjit_based_combinations_func_for_use_in_SemanticSentenceMatching.ipynb

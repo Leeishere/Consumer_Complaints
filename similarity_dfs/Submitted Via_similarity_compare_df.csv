@@ -1,0 +1,8 @@
+is_similar,column_a,column_b,similarity_score
+False,Referral,Web Referral,0.925134
+False,Postal mail,Email,0.837241
+False,Web,Web Referral,0.777962
+False,Fax,Email,0.725147
+False,Postal mail,Fax,0.708324
+False,Phone,Email,0.706443
+False,Web,Email,0.702481
